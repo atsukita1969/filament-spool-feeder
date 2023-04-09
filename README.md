@@ -19,8 +19,8 @@
 
 
 # Machine
-https://github.com/atsukita1969/filament-spool-feeder/issues/1#issue-1659853839
 
+![](https://github.com/atsukita1969/filament-spool-feeder/issues/1#issue-1659853839)
 
 # Electric board
 
