@@ -20,7 +20,7 @@
 
 # Machine
 
-gaikei.jpg
+
 
 
 # Electric board
