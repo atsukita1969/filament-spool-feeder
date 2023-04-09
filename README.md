@@ -20,7 +20,7 @@
 
 # Machine
 
-![](https://github.com/atsukita1969/filament-spool-feeder/issues/2#issue-1659854934)
+![](https://user-images.githubusercontent.com/44044800/230771700-191599d2-2b6f-4a53-9985-95916052d0fc.jpg)
 
 # Electric board
 
