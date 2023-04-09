@@ -19,8 +19,7 @@
 
 
 # Machine
-!(https://github.com/atsukita1969/filament-spool-feeder/blob/26e511003e7bb192e5001776381d6887cc725ab8/gaikei.jpg)
-
+https://github.com/atsukita1969/filament-spool-feeder/issues/1#issue-1659853839
 
 
 # Electric board
