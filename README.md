@@ -28,7 +28,7 @@
 ステッピングモーターのドライバは、TMC2130を使用する。（たまたま手持ちがあったため）  
 ジャム防止のシステムダウンには、ATTINY85をArduino化してモニタリングさせる。  
 
-![](https://github.com/atsukita1969/filament-spool-feeder/issues/3#issue-1660457740)  
+![](https://user-images.githubusercontent.com/44044800/230866900-01ee18c6-7b43-437e-a4ee-18f6a67e147a.jpg)  
 
 # Software
 
