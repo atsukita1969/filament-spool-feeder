@@ -23,9 +23,10 @@
 (↑3Dプリンタと連動させたい。プリンタ側に一時停止のI/Oがあれば可能）  
 ![](https://user-images.githubusercontent.com/44044800/230771700-191599d2-2b6f-4a53-9985-95916052d0fc.jpg)
 
-# Electric board
-
-
+# Electric board  
+ベースはArduino Pro-mini  
+ステッピングモーターのドライバは、TMC2130を使用する。（たまたま手持ちがあったため）  
+ジャム防止のシステムダウンには、ATTINY85をArduino化してモニタリングさせる。  
 
 # Software
 
