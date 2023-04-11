@@ -1,4 +1,4 @@
-Design Spark PCBファイル
+Design Spark PCBファイル  
 GNDベタがうまくGNDのNETに繋がっていないが問題ないはず
 
 ## BOM
