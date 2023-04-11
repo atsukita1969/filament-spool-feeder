@@ -21,6 +21,7 @@
 * 連続して一定時間以上モーターが回転する場合は、システムダウン（ジャム防止。3Dプリントは、フィラメントが切れてダメになる）  
 (↑3Dプリンタと連動させたい。プリンタ側に一時停止のI/Oがあれば可能）  
 ![](https://user-images.githubusercontent.com/44044800/230771700-191599d2-2b6f-4a53-9985-95916052d0fc.jpg)
+![](https://user-images.githubusercontent.com/44044800/231154475-a3b26f18-8652-4372-bb76-98043782d722.png)
 
 # Electric board  
 ベースはArduino Pro-mini(5V)  
