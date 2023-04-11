@@ -23,7 +23,7 @@
 ![](https://user-images.githubusercontent.com/44044800/230771700-191599d2-2b6f-4a53-9985-95916052d0fc.jpg)
 
 # Electric board  
-ベースはArduino Pro-mini  
+ベースはArduino Pro-mini(5V)  
 ステッピングモーターのドライバは、TMC2130を使用する。（たまたま手持ちがあったため）  
 ジャム防止のシステムダウンには、ATTINY85をArduino化してモニタリングさせる。  
 
