@@ -7,7 +7,7 @@ This repository uses a different license for each kind of content. The licenses 
 
 | Scope / 対象 | License / ライセンス | Text / 本文 |
 |:--|:--|:--|
-| `hardware/` — PCB design files (EAGLE), mechanical design files (STEP), bills of materials / 基板設計データ、機構設計データ、部品表 | CERN Open Hardware Licence Version 2 - Strongly Reciprocal (`CERN-OHL-S-2.0`) | [LICENSES/CERN-OHL-S-2.0.txt](LICENSES/CERN-OHL-S-2.0.txt) |
+| `hardware/` — PCB design files (EAGLE) and schematic PDF, mechanical design files (STEP), bills of materials / 基板設計データと回路図 PDF、機構設計データ、部品表 | CERN Open Hardware Licence Version 2 - Strongly Reciprocal (`CERN-OHL-S-2.0`) | [LICENSES/CERN-OHL-S-2.0.txt](LICENSES/CERN-OHL-S-2.0.txt) |
 | `firmware/`, `tools/`, `.github/` — firmware and tools / ファームウェアとツール | GNU General Public License v3.0 or later (`GPL-3.0-or-later`) | [LICENSES/GPL-3.0.txt](LICENSES/GPL-3.0.txt) |
 | `docs/`, `README.md`, `CHANGELOG.md`, `LICENSE.md` and all other documentation and images / 文書と画像 | Creative Commons Attribution-ShareAlike 4.0 International (`CC-BY-SA-4.0`) | [LICENSES/CC-BY-SA-4.0.txt](LICENSES/CC-BY-SA-4.0.txt) |
 
@@ -45,13 +45,13 @@ Not included in this repository. / このリポジトリには含みません。
 
 ### PCB design files / 基板設計データ
 
-The EAGLE files (`hardware/pcb/eagle/`) contain copies of library elements (symbols, footprints, package references) made by others. The author's own library is `my_mixed`.
-EAGLE データには、他者が作成したライブラリ要素（回路図シンボル、フットプリント、パッケージ情報）の複製が含まれています。作者自身のライブラリは `my_mixed` です。
+The EAGLE files (`hardware/pcb/eagle/`) contain copies of library elements (symbols, footprints, package references) made by others, and the schematic PDF shows those symbols. The author's own library is `my_mixed`.
+EAGLE データには、他者が作成したライブラリ要素（回路図シンボル、フットプリント、パッケージ情報）の複製が含まれ、回路図 PDF にはそのシンボルが描かれています。作者自身のライブラリは `my_mixed` です。
 
 | Library in the EAGLE files | Source |
 |:--|:--|
 | `supply1`, `resistor`, `relay`, `transistor-neu-to92` | CadSoft / Autodesk, distributed with EAGLE |
-| `Connector`, `Opto-Electronic`, `Power_Symbols` | Autodesk, distributed with EAGLE / Autodesk Fusion |
+| `Connector`, `Opto-Electronic`, `Power_Symbols`, `Resistor` | Autodesk, distributed with EAGLE / Autodesk Fusion |
 | `Diodes`, `Microcontroller` | PCBLayout.com |
 | `Rembrandt Electronics - JST XH Connectors v1-0` | Rembrandt Electronics |
 | `con-headers-jp` | Copyright (C) 2008 Bob Starr |

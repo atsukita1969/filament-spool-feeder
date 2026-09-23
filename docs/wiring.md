@@ -2,8 +2,8 @@
 
 [日本語](#日本語) | [English](#english)
 
-基板: `hardware/pcb/eagle/spool_tmc2130_b` (rev.A)。部品番号はこの EAGLE データに合わせています。
-Board: `hardware/pcb/eagle/spool_tmc2130_b` (rev.A). Reference designators follow this EAGLE design.
+基板: `hardware/pcb/eagle/spool_tmc2130_b`（rev.B）。rev.A のデータはタグ `pcb-rev.A` にあります。部品番号は rev.A と rev.B で共通です（R6 は rev.B のみ）。
+Board: `hardware/pcb/eagle/spool_tmc2130_b` (rev.B). The rev.A files are in tag `pcb-rev.A`. Reference designators are the same on rev.A and rev.B (R6 exists on rev.B only).
 
 ---
 
@@ -31,6 +31,8 @@ Board: `hardware/pcb/eagle/spool_tmc2130_b` (rev.A). Reference designators follo
 
 rev.A で ATtiny85 を実装したまま JP2 を短絡しないでください。2023 年版ファームでは、ジャム停止時に ATtiny85 の出力と +5V が短絡します。
 
+rev.B の X5 には、正常なときに2番を HIGH にするセンサーをつなぎます（例：1-2 間の常閉接点）。詳しくは [hardware/pcb/README.md](../hardware/pcb/README.md) を参照してください。
+
 ### Arduino Pro Mini（5V、16MHz）
 
 | ピン | 接続 |
@@ -50,7 +52,7 @@ rev.A で ATtiny85 を実装したまま JP2 を短絡しないでください�
 |:--|:--|:--|
 | 1 | PB5 / RESET | RST（X3、Pro Mini と共通） |
 | 2 | PB3 | EXT_IN → T1 → リレー K1（HIGH でモーター電源 ON、10kΩ プルダウン R3） |
-| 3 | PB4 | rev.A: 未接続 / rev.B: EXT_SENSE（X5、10kΩ プルダウン） |
+| 3 | PB4 | rev.A: 未接続 / rev.B: EXT_SENSE（X5 から R6 10kΩ 経由。X5 側を R5 10kΩ でプルダウン） |
 | 4 | GND | GND |
 | 5 | PB0 | 未接続 |
 | 6 | PB1 | D4（送り要求） |
@@ -95,6 +97,8 @@ DC ジャック X7（12V）→ PS1（RXEF135）→ 電源スイッチ X4 → +12
 
 On rev.A, do not fit JP2 while the ATtiny85 is installed. With the 2023 firmware, the ATtiny85 output is shorted to +5V when it stops the motor on a jam.
 
+On rev.B, connect a sensor to X5 that drives pin 2 HIGH when everything is OK (for example a normally closed contact between pins 1 and 2). See [hardware/pcb/README.md](../hardware/pcb/README.md).
+
 ### Arduino Pro Mini (5 V, 16 MHz)
 
 | Pin | Connection |
@@ -114,7 +118,7 @@ On rev.A, do not fit JP2 while the ATtiny85 is installed. With the 2023 firmware
 |:--|:--|:--|
 | 1 | PB5 / RESET | RST (X3, shared with the Pro Mini) |
 | 2 | PB3 | EXT_IN → T1 → relay K1 (HIGH = motor supply on, 10 kΩ pull-down R3) |
-| 3 | PB4 | rev.A: not connected / rev.B: EXT_SENSE (X5, 10 kΩ pull-down) |
+| 3 | PB4 | rev.A: not connected / rev.B: EXT_SENSE (from X5 through R6 10 kΩ, pulled down by R5 10 kΩ on the X5 side) |
 | 4 | GND | GND |
 | 5 | PB0 | not connected |
 | 6 | PB1 | D4 (feed request) |
