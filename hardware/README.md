@@ -2,7 +2,7 @@
 
 | Folder / フォルダ | Contents / 内容 |
 |:--|:--|
-| [pcb/](pcb/) | Control board: EAGLE files, BOM, rev.B plan / 制御基板：EAGLE データ、部品表、改版案 |
+| [pcb/](pcb/) | Control board rev.B: EAGLE files, schematic PDF, BOM / 制御基板 rev.B：EAGLE データ、回路図 PDF、部品表 |
 | [mechanical/](mechanical/) | Mechanical parts: outline drawing, STEP files, BOM / 機構部品：組立外形図、STEP データ、部品表 |
 
 Licensed under CERN-OHL-S-2.0, except third-party EAGLE library elements and 3D models of purchased parts. See [LICENSE.md](../LICENSE.md).
