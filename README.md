@@ -63,7 +63,7 @@
 | ファームウェアとツール（firmware/, tools/） | [GPL-3.0-or-later](LICENSES/GPL-3.0.txt) |
 | 文書と画像（docs/, README など） | [CC BY-SA 4.0](LICENSES/CC-BY-SA-4.0.txt) |
 
-詳細は [LICENSE.md](LICENSE.md) を参照してください。変更履歴は [CHANGELOG.md](CHANGELOG.md) にあります。2023年に公開した元の状態は、タグ `v1.0-2023` で参照できます。
+他者のライブラリ、EAGLE ライブラリ要素、購入部品の 3D モデルは対象外です。詳細は [LICENSE.md](LICENSE.md) を参照してください。変更履歴は [CHANGELOG.md](CHANGELOG.md) にあります。2023年に公開した元の状態は、タグ `v1.0-2023` で参照できます。
 
 ---
 
@@ -121,4 +121,4 @@ See [docs/principle.md](docs/principle.md) for details.
 | Firmware and tools (firmware/, tools/) | [GPL-3.0-or-later](LICENSES/GPL-3.0.txt) |
 | Documentation and images (docs/, README, etc.) | [CC BY-SA 4.0](LICENSES/CC-BY-SA-4.0.txt) |
 
-See [LICENSE.md](LICENSE.md). The change history is in [CHANGELOG.md](CHANGELOG.md). The original 2023 state is available as tag `v1.0-2023`.
+Third-party libraries, EAGLE library elements and 3D models of purchased parts are not covered. See [LICENSE.md](LICENSE.md). The change history is in [CHANGELOG.md](CHANGELOG.md). The original 2023 state is available as tag `v1.0-2023`.
