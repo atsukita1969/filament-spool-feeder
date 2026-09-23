@@ -1,0 +1,71 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+name: Firmware build
+
+on:
+  push:
+    paths:
+      - "firmware/**"
+      - ".github/workflows/firmware.yml"
+  pull_request:
+    paths:
+      - "firmware/**"
+      - ".github/workflows/firmware.yml"
+  workflow_dispatch:
+
+jobs:
+  feeder_main:
+    name: feeder_main (${{ matrix.variant }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - variant: explicit (default)
+            flags: ""
+          - variant: legacy motion
+            flags: "-DMOTION_MODE=1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: arduino/compile-sketches@v1
+        with:
+          fqbn: arduino:avr:pro:cpu=16MHzatmega328
+          sketch-paths: |
+            - firmware/feeder_main
+          libraries: |
+            - name: TMCStepper
+              version: 0.7.3
+            - name: AccelStepper
+              version: "1.64"
+          cli-compile-flags: |
+            - --warnings
+            - all
+            - --build-property
+            - compiler.cpp.extra_flags=${{ matrix.flags }}
+
+  jam_monitor_tiny85:
+    name: jam_monitor_tiny85 (${{ matrix.variant }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - variant: board rev.A (default)
+            flags: ""
+          - variant: board rev.B
+            flags: "-DEXT_SENSE_ENABLED=1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: arduino/compile-sketches@v1
+        with:
+          fqbn: ATTinyCore:avr:attinyx5:chip=85,clock=8internal
+          platforms: |
+            - name: ATTinyCore:avr
+              source-url: https://drazzy.com/package_drazzy.com_index.json
+              version: 1.5.2
+          sketch-paths: |
+            - firmware/jam_monitor_tiny85
+          cli-compile-flags: |
+            - --warnings
+            - all
+            - --build-property
+            - compiler.cpp.extra_flags=${{ matrix.flags }}

@@ -1,0 +1,33 @@
+qty,part_number,description_ja,description_en,notes
+2,17HS08-1004S,ステッピングモーター,Stepper motor NEMA 17 (1.8 deg),
+2,GT2 20T 6mm bore 5mm,タイミングプーリー GT2 20歯 ベルト幅6mm用 穴径5mm,Timing pulley GT2 20T for 6 mm belt 5 mm bore,Added in 2026
+2,GT2 belt 188,GT2無端ベルト 周長188mm 幅6mm,GT2 closed-loop belt 188 mm 6 mm wide,Runs directly on the urethane roller
+2,UMJ30-100,ベアリング圧入ウレタンローラー 外径30mm,Urethane roller with bearings outer diameter 30 mm,
+4,U_idler_8,アイドラー φ8mm用U溝型,U-groove idler for 8 mm shaft,
+2,RDSS8-300,φ8シャフト 300mm,Shaft 8 mm x 300 mm,
+4,SH8 MSM,シャフトホルダー φ8用,Shaft holder for 8 mm,
+4,NETW8,E型止め輪 φ8用,E-ring for 8 mm,
+2,NFS5-2020-230,アルミフレーム 20x20x230mm,Aluminum extrusion 20x20x230 mm,
+10,NFS5-2020-250,アルミフレーム 20x20x250mm,Aluminum extrusion 20x20x250 mm,
+2,NFS5-2020-260,アルミフレーム 20x20x260mm,Aluminum extrusion 20x20x260 mm,
+2,NFS5-2020-300,アルミフレーム 20x20x300mm,Aluminum extrusion 20x20x300 mm,
+28,corner bracket,コーナーブラケット 20x20用,Corner bracket for 20x20 extrusion,
+1,20x300x3,アクリル板 3mm,Acrylic plate 3 mm,Self-made: step/parts/20x300x3.stp
+2,270x290_plate_wall,アクリル板 3mm,Acrylic plate 3 mm,Self-made: step/parts/270x290_plate_wall.stp
+1,270x300_plate_wall,アクリル板 3mm,Acrylic plate 3 mm,Self-made: step/parts/270x300_plate_wall.stp
+1,270x300_plate_wall_out_hole,アクリル板 3mm（穴あき）,Acrylic plate 3 mm (with hole),Self-made: step/parts/270x300_plate_wall_out_hole.stp
+1,270x300_plate_wall_roof,アクリル板 3mm,Acrylic plate 3 mm,Self-made: step/parts/270x300_plate_wall_roof.stp
+1,290x300_plate_wall,アクリル板 3mm,Acrylic plate 3 mm,Self-made: step/parts/290x300_plate_wall.stp
+2,HG-TS03,トルクヒンジ（スガツネ）,Torque hinge (Sugatsune),
+1,-,取っ手（96mmピッチ）,Handle (96 mm pitch),
+1,-,トグルスイッチ,Toggle switch (power),
+1,-,DCジャック,DC jack,
+2,-,ターコイズスイッチ,Switch for the tension lever,Part number to be added
+2,-,ごむひも,Elastic cord,
+2,-,スイッチブラケット,Switch bracket,Self-made (3D printed): step/parts/Base_lever_L.stp and Base_lever_R.stp
+2,-,ゴムブラケット,Elastic cord bracket,Self-made (3D printed): step/parts/tri_Bracket.stp
+2,-,スイッチレバー,Switch lever,Self-made (3D printed): step/parts/lever_L.stp and lever_R.stp
+2,-,モーターマウント,Motor mount,Self-made: step/parts/MotorMount.stp
+8,-,スペーサー M3 10mm,Spacer M3 10 mm,
+as needed,-,アルミフレームナット M5,T-nut M5 for 20x20 extrusion,
+as needed,-,ねじ M5,Screw M5,

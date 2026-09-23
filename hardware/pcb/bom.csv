@@ -1,0 +1,32 @@
+ref,qty,rev_a (as built),rev_b (planned),package,function,notes
+ARDUINO1,1,Arduino Pro Mini 5V 16MHz (ATmega328P),same,Pro Mini footprint,Main controller,Mounted on pin sockets
+U2,1,ATtiny85-20PU,same,DIP-8,Jam monitor,Mounted in a DIP-8 socket
+TMC1,1,BIGTREETECH TMC2130 module (SPI),same,StepStick,Stepper driver,Plugged into J1/J2
+U1,1,NJM7805SDL,same,TO-252,5V regulator,Bottom side
+K1,1,Omron G6K-2P-Y DC5,same,G6K-2P-Y,Motor supply relay,Coil 5 V (DC12 coil does not work on 5 V)
+T1,1,ROHM DTC144EKA,ROHM DTC123JKA,SMT3 (SC-59),Relay driver,Bottom side. rev.B: drive margin (R1 2.2k)
+D1,1,1N4004,same,DO-41,Relay flyback diode,
+D2,1,LED red,same,LED 5mm radial,Power indicator,
+D3,1,LED green,same,LED 5mm radial,Feed request / status LED,rev.A: on D4 net. rev.B: driven from Pro Mini D8
+C1,1,100uF >=16V aluminum electrolytic,same,Radial 3.5mm pitch dia 8mm,VM bulk capacitor (after relay),
+C2,1,0.33uF ceramic,same,Radial 5.0mm pitch,7805 input,
+C3,1,0.1uF ceramic,same,Radial 5.0mm pitch,7805 output,
+PS1,1,Littelfuse RXEF135,same,Radial 5.08mm pitch,Resettable fuse (hold 1.35 A trip 2.7 A 72 V),
+R1,1,10k,same,0603,D4 pull-down,Bottom side
+R2,1,680,2.2k,0603,D2 series resistor,rev.A exceeds 0.1 W rating of a standard 0603 at 12 V
+R3,1,10k,same,0603,EXT_IN pull-down,Bottom side
+R4,1,150,470,0603,D3 series resistor,Bottom side. rev.B: limits D8 current to about 6 mA
+R5,1,-,10k,0603,EXT_SENSE pull-down,rev.B only
+J1,1,Female header 1x8,same,2.54mm,TMC2130 power side,
+J2,1,Female header 1x8,same,2.54mm,TMC2130 logic side,
+J3,1,Female header 1x2,same,2.54mm,TMC2130 extra pins,Not connected
+JP1,1,Pin header 1x3,same,2.54mm,Relay bypass (2-3),Normally open
+JP2,1,Pin header 1x3,same,2.54mm,rev.A: EXT_IN to +5V / rev.B: external sensor not used (1-2),rev.A: do not fit with ATtiny85 installed
+X1,1,JST XH 2P,same,XH,Limit switch,
+X2,1,JST XH 4P,same,XH,Stepper motor,
+X3,1,JST XH 2P,same,XH,Reset switch,Resets Pro Mini and ATtiny85
+X4,1,JST XH 2P,same,XH,Power switch,
+X5,1,JST XH 2P,same,XH,External input,rev.A: not used / rev.B: to ATtiny85 PB4
+X6,1,JST XH 2P,same,XH,5 V output,
+X7,1,DC jack 2.1mm,same,DC-21MM,12 V input (center positive),
+X9,1,JST XH 3P,same,XH,Sensor input (alternative to X1),

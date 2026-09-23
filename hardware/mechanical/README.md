@@ -1,0 +1,41 @@
+# Mechanical parts / 機構部品
+
+[日本語](#日本語) | [English](#english)
+
+![Outline drawing](../../docs/images/assembly_outline.png)
+
+---
+
+## 日本語
+
+| ファイル | 内容 |
+|:--|:--|
+| [../../docs/images/assembly_outline.png](../../docs/images/assembly_outline.png) | 2スプール版の組立外形図（正面図、平面図、右側面図、等角図、部品番号） |
+| [../../docs/images/feeder_assembly_render.jpg](../../docs/images/feeder_assembly_render.jpg) | 2スプール版のレンダリング画像 |
+| [step/parts/](step/parts/) | 自作部品の STEP（Base_lever_L/R、lever_L/R、MotorMount、tri_Bracket、アクリル板6種） |
+| [bom.csv](bom.csv) | 部品表 |
+| [assembly_parts.csv](assembly_parts.csv) | 組立モデル（Autodesk Inventor、2022-04-09）に含まれていた部品と数量 |
+
+全体組立の STEP（assy_top_dual.stp）は、購入部品のメーカー提供 3D モデルを含んでいたため、2026年に削除しました。代わりに組立外形図と部品表を置いています。購入部品の 3D モデルは、部品表の型番で各メーカーから入手してください。
+
+樹脂の自作部品（Base_lever、lever、MotorMount、tri_Bracket）は精度を必要としないので、3D プリンタでの製作を想定しています。アクリル板（厚さ 3 mm の6種、20x300x3 と *_plate_wall）は、STEP の外形と穴位置に合わせて切断と穴あけをします。アクリル板の STEP は、組立モデルから形状を変えずに取り出したものです。
+
+駆動系: モーター（17HS08-1004S）の GT2 20歯プーリーから、GT2 無端ベルト 188mm をウレタンローラー（外径30mm）に直接巻き掛けています。ローラー側にプーリーはありません。詳しくは [docs/principle.md](../../docs/principle.md) を参照してください。
+
+---
+
+## English
+
+| File | Contents |
+|:--|:--|
+| [../../docs/images/assembly_outline.png](../../docs/images/assembly_outline.png) | Outline drawing of the two-spool version (front, top, right side, isometric, part numbers) |
+| [../../docs/images/feeder_assembly_render.jpg](../../docs/images/feeder_assembly_render.jpg) | Rendering of the two-spool version |
+| [step/parts/](step/parts/) | STEP files of the self-made parts (Base_lever_L/R, lever_L/R, MotorMount, tri_Bracket, six acrylic plates) |
+| [bom.csv](bom.csv) | Bill of materials |
+| [assembly_parts.csv](assembly_parts.csv) | Parts and quantities in the assembly model (Autodesk Inventor, 2022-04-09) |
+
+The complete assembly STEP (assy_top_dual.stp) was removed in 2026 because it contained manufacturer 3D models of purchased parts. The outline drawing and the bills of materials replace it. Get the 3D models of purchased parts from their manufacturers by the part numbers in the BOM.
+
+The self-made plastic parts (Base_lever, lever, MotorMount, tri_Bracket) need no high precision and are meant to be 3D printed. The six acrylic plates (3 mm, 20x300x3 and *_plate_wall) are cut and drilled to the outline and holes of their STEP files. The plate STEP files were extracted unchanged from the assembly model.
+
+Drive: a GT2 20T pulley on the motor (17HS08-1004S) drives a GT2 closed-loop belt of 188 mm that runs directly on the urethane roller (outer diameter 30 mm). There is no pulley on the roller. See [docs/principle.md](../../docs/principle.md).

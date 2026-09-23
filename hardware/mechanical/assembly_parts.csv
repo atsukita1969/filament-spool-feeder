@@ -1,0 +1,43 @@
+qty_in_model,name_in_model,part,description_ja,description_en
+2,17HS08-1004S,17HS08-1004S,ステッピングモーター,Stepper motor
+2,gt2,GT2 20T 6mm bore 5mm,タイミングプーリー,Timing pulley
+2,gt2_belt_188,GT2 belt 188,GT2無端ベルト 188mm,GT2 closed-loop belt 188 mm
+2,UMJ30-100,UMJ30-100,ウレタンローラー（ベアリング B698ZZ を2個ずつ含む）,Urethane roller (2 bearings B698ZZ each)
+4,U_idler_8,U_idler_8,アイドラー φ8mm用,Idler for 8 mm shaft
+2,8_shaft,RDSS8-300,φ8シャフト 300mm,Shaft 8 mm x 300 mm
+4,SH8_MSM,SH8 MSM,シャフトホルダー φ8用,Shaft holder for 8 mm
+4,NETW8,NETW8,E型止め輪 φ8用,E-ring for 8 mm
+2,NFS5-2020-230,NFS5-2020-230,アルミフレーム 20x20x230mm,Aluminum extrusion 20x20x230 mm
+10,NFS5-2020-250,NFS5-2020-250,アルミフレーム 20x20x250mm,Aluminum extrusion 20x20x250 mm
+2,NFS5-2020-260,NFS5-2020-260,アルミフレーム 20x20x260mm,Aluminum extrusion 20x20x260 mm
+2,NFS5-2020-300,NFS5-2020-300,アルミフレーム 20x20x300mm,Aluminum extrusion 20x20x300 mm
+28,brkt_cheap,corner bracket,コーナーブラケット 20x20用,Corner bracket for 20x20 extrusion
+12,HNTP5-5,HNTP5-5,アルミフレームナット M5,T-nut M5 for 20x20 extrusion
+1,20x300x3,20x300x3,アクリル板 3mm（天面の固定部、ヒンジ取付け）,Acrylic plate 3 mm (fixed top strip for the hinges)
+2,270x290_plate_wall,270x290_plate_wall,アクリル板 3mm（側面）,Acrylic plate 3 mm (sides)
+1,270x300_plate_wall,270x300_plate_wall,アクリル板 3mm（正面図側）,Acrylic plate 3 mm (front view side)
+1,270x300_plate_wall_out_hole,270x300_plate_wall,アクリル板 3mm（正面図の反対側、穴あき）,Acrylic plate 3 mm (opposite the front view side; with hole)
+1,270x300_plate_wall_roof,270x300_plate_wall_roof,アクリル板 3mm（天面のふた）,Acrylic plate 3 mm (top lid)
+1,290x300_plate_wall,290x300_plate_wall,アクリル板 3mm（底面）,Acrylic plate 3 mm (bottom)
+2,hg_ts03,HG-TS03,トルクヒンジ（スガツネ）,Torque hinge (Sugatsune)
+2,SW_no_lever,-,ターコイズスイッチ,Switch for the tension lever
+1,LS_brkt_2,Base_lever_R.stp,自作部品,Self-made part
+1,LS_brkt_2_MIR,Base_lever_L.stp,自作部品,Self-made part
+1,lever,lever_R.stp,自作部品,Self-made part
+1,lever_MIR,lever_L.stp,自作部品,Self-made part
+2,X End Stop Bracket,tri_Bracket.stp,自作部品,Self-made part
+2,MotorMount,MotorMount.stp,自作部品,Self-made part
+2,spool_tmc2130_b,-,制御基板（hardware/pcb）,Control board (hardware/pcb)
+8,spacer_m3x10,-,スペーサー M3 10mm,Spacer M3 10 mm
+4,JIS B 1176 - M5 x 16,-,ねじ,Screw
+4,JIS B 1176 - M5 x 12,-,ねじ,Screw
+1,JIS B 1176 - M5 x 10,-,ねじ,Screw
+2,ISO 7380-1 - M5 x 10,-,ねじ,Screw
+4,JIS B 1174 - M4 x 8,-,ねじ,Screw
+1,JIS B 1176 - M3 x 16,-,ねじ,Screw
+4,JIS B 1176 - M2.5 x 8,-,ねじ,Screw
+4,JIS B 1181 - B M4,-,ナット,Nut
+8,JIS B 1181 - M3,-,ナット,Nut
+2,JIS B 1181 - A M3,-,ナット,Nut
+1,JIS B 1256 - 3x7,-,座金,Washer
+2,spool,-,フィラメントスプール（参考、部品ではない）,Filament spool (reference only)
