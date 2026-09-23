@@ -60,8 +60,8 @@ EAGLE データには、他者が作成したライブラリ要素（回路図�
 
 ### Mechanical design files / 機構設計データ
 
-`hardware/mechanical/step/assy_top_dual.stp` (complete assembly) contains 3D models of purchased parts and of the electronic components on the PCB, made by their manufacturers or other third parties. These models are included only to show the assembly and are not covered by the CERN-OHL-S. The parts designed by the author are also published separately in `hardware/mechanical/step/parts/`.
-`assy_top_dual.stp`（全体組立）には、購入部品と基板上の電子部品の 3D モデル（メーカーまたは他者が作成したもの）が含まれています。これらは組立状態を示すためだけに含めており、CERN-OHL-S の対象外です。作者が設計した部品は `hardware/mechanical/step/parts/` にも個別に置いています。
+The STEP files in `hardware/mechanical/step/parts/` contain only parts designed by the author. The complete assembly STEP (`assy_top_dual.stp`), which contained 3D models of purchased parts made by their manufacturers, was removed in 2026 and is not covered by the CERN-OHL-S. The outline drawing (`docs/images/assembly_outline.png`) and the rendering (`docs/images/feeder_assembly_render.jpg`) show purchased parts only as pictures of the assembly.
+`hardware/mechanical/step/parts/` の STEP は作者が設計した部品だけです。購入部品のメーカー製 3D モデルを含んでいた全体組立の STEP（`assy_top_dual.stp`）は 2026年に削除しました。これは CERN-OHL-S の対象外です。組立外形図とレンダリング画像では、購入部品は組立状態を示す絵としてだけ描かれています。
 
 ## Note / 注意
 

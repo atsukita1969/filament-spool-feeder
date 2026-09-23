@@ -36,13 +36,13 @@
 |:--|:--|
 | [firmware/](firmware/) | Arduino Pro Mini（メイン制御）と ATtiny85（ジャム監視）のファームウェア |
 | [hardware/pcb/](hardware/pcb/) | 制御基板（EAGLE データ、BOM、改版案） |
-| [hardware/mechanical/](hardware/mechanical/) | 機構部品（STEP データ、BOM） |
+| [hardware/mechanical/](hardware/mechanical/) | 機構部品（組立外形図、自作部品の STEP データ、BOM） |
 | [docs/](docs/) | 原理、配線、画像 |
 | [tools/sim/](tools/sim/) | ファームの検証に使った AVR シミュレーション環境 |
 
 ### はじめに
 
-1. 機構: [hardware/mechanical/](hardware/mechanical/) の BOM と STEP データで組み立てます。
+1. 機構: [hardware/mechanical/](hardware/mechanical/) の組立外形図、BOM、自作部品の STEP データで組み立てます。
 2. 基板: [hardware/pcb/](hardware/pcb/) の EAGLE データで製作します。配線は [docs/wiring.md](docs/wiring.md) にあります。
 3. ファーム: [firmware/](firmware/) の手順で、Pro Mini と ATtiny85 に書き込みます。
 
@@ -94,13 +94,13 @@ See [docs/principle.md](docs/principle.md) for details.
 |:--|:--|
 | [firmware/](firmware/) | Firmware for the Arduino Pro Mini (main control) and the ATtiny85 (jam monitor) |
 | [hardware/pcb/](hardware/pcb/) | Control board (EAGLE files, BOM, revision plan) |
-| [hardware/mechanical/](hardware/mechanical/) | Mechanical parts (STEP files, BOM) |
+| [hardware/mechanical/](hardware/mechanical/) | Mechanical parts (outline drawing, STEP files of the self-made parts, BOM) |
 | [docs/](docs/) | Principle, wiring, images |
 | [tools/sim/](tools/sim/) | AVR simulation used to verify the firmware |
 
 ### Getting started
 
-1. Mechanics: build from the BOM and STEP files in [hardware/mechanical/](hardware/mechanical/).
+1. Mechanics: build from the outline drawing, the BOM and the STEP files of the self-made parts in [hardware/mechanical/](hardware/mechanical/).
 2. Board: make it from the EAGLE files in [hardware/pcb/](hardware/pcb/). Wiring is in [docs/wiring.md](docs/wiring.md).
 3. Firmware: flash the Pro Mini and the ATtiny85 as described in [firmware/](firmware/).
 
