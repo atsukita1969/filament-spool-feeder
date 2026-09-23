@@ -1,0 +1,24 @@
+# Arduino / ATTinyCore build outputs
+*.hex
+*.elf
+*.eep
+*.lst
+build/
+
+# EAGLE backups and project files
+*.b#*
+*.s#*
+*.l#*
+eagle.epf
+
+# Simulation binaries and logs
+tools/sim/sim328
+tools/sim/simtiny
+tools/sim/*.log
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store

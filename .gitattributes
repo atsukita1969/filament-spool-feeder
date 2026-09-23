@@ -1,0 +1,16 @@
+# Normalize line endings of text files to LF in the repository
+* text=auto
+
+# Design data: keep byte-for-byte as exported
+*.stp  -text
+*.step -text
+*.sch  -text
+*.brd  -text
+
+# Binary files
+*.jpg  binary
+*.jpeg binary
+*.png  binary
+*.pdf  binary
+*.xlsx binary
+*.zip  binary
