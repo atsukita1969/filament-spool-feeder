@@ -25,11 +25,13 @@
 - BOMs converted to CSV and corrected: relay G6K-2P-Y DC5, PS1 RXEF135, T1 DTC144EKA, timing pulley added.
 - rev.B change plan: external input to ATtiny85 PB4, T1 → DTC123JKA, R2 → 2.2 kΩ, D3 driven from Pro Mini D8 with R4 → 470 Ω.
 - Complete assembly STEP (`assy_top_dual.stp`) removed because it contained manufacturer 3D models of purchased parts. Replaced by an outline drawing (`docs/images/assembly_outline.png`) and a list of the parts in the assembly model (`hardware/mechanical/assembly_parts.csv`). Motor mount added to the mechanical BOM.
+- STEP files of the six self-made acrylic plates added to `hardware/mechanical/step/parts` (extracted unchanged from the assembly model). Mechanical BOM quantities corrected to the assembly model.
 
 - 発注に使った EAGLE データを追加。DesignSpark データは削除（変換時に GND ベタが外れていたため。タグ `v1.0-2023` で参照可能）。
 - 部品表を CSV にして修正（リレー DC5、PS1 RXEF135、T1 DTC144EKA、タイミングプーリー追加）。
 - rev.B の変更案を追加。
 - 購入部品のメーカー製 3D モデルを含んでいた全体組立の STEP（`assy_top_dual.stp`）を削除し、組立外形図と、組立モデルの部品と数量の一覧に置き換え。機構の部品表にモーターマウントを追加。
+- 自作のアクリル板6種の STEP を `hardware/mechanical/step/parts` に追加（組立モデルから形状を変えずに抽出）。機構の部品表の数量を組立モデルに合わせて修正。
 
 ### Repository / リポジトリ
 

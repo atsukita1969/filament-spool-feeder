@@ -12,12 +12,12 @@ qty,part_number,description_ja,description_en,notes
 2,NFS5-2020-260,アルミフレーム 20x20x260mm,Aluminum extrusion 20x20x260 mm,
 2,NFS5-2020-300,アルミフレーム 20x20x300mm,Aluminum extrusion 20x20x300 mm,
 28,corner bracket,コーナーブラケット 20x20用,Corner bracket for 20x20 extrusion,
-1,20x300x3,アクリル板 3mm,Acrylic plate 3 mm,
-2,270x290_plate_wall,アクリル板 3mm,Acrylic plate 3 mm,
-1,270x300_plate_wall,アクリル板 3mm,Acrylic plate 3 mm,
-1,270x300_plate_wall_out_hole,アクリル板 3mm（穴あき）,Acrylic plate 3 mm (with hole),
-1,270x300_plate_wall_roof,アクリル板 3mm,Acrylic plate 3 mm,
-1,290x300_plate_wall,アクリル板 3mm,Acrylic plate 3 mm,
+1,20x300x3,アクリル板 3mm,Acrylic plate 3 mm,Self-made: step/parts/20x300x3.stp
+2,270x290_plate_wall,アクリル板 3mm,Acrylic plate 3 mm,Self-made: step/parts/270x290_plate_wall.stp
+1,270x300_plate_wall,アクリル板 3mm,Acrylic plate 3 mm,Self-made: step/parts/270x300_plate_wall.stp
+1,270x300_plate_wall_out_hole,アクリル板 3mm（穴あき）,Acrylic plate 3 mm (with hole),Self-made: step/parts/270x300_plate_wall_out_hole.stp
+1,270x300_plate_wall_roof,アクリル板 3mm,Acrylic plate 3 mm,Self-made: step/parts/270x300_plate_wall_roof.stp
+1,290x300_plate_wall,アクリル板 3mm,Acrylic plate 3 mm,Self-made: step/parts/290x300_plate_wall.stp
 2,HG-TS03,トルクヒンジ（スガツネ）,Torque hinge (Sugatsune),
 1,-,取っ手（96mmピッチ）,Handle (96 mm pitch),
 1,-,トグルスイッチ,Toggle switch (power),
